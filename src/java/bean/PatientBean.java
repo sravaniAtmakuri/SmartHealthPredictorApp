@@ -59,7 +59,8 @@ public class PatientBean {
     }
 
     public void setAge(int Age) {
-        this.Age = Age;
+        int temp = Age;
+        this.Age=temp;
     }
     
     
